@@ -9,7 +9,7 @@ const MastHead: React.FC = () => {
         alt="xUvm1i5-christmas-trees-wallpaper"
         height="1000"
         width="1000"
-        className="rounded-b-xl w-full h-full"
+        className="rounded-b-md w-full h-full"
       ></Image>
       <p>Hello</p>
     </div>
