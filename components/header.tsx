@@ -8,31 +8,34 @@ export default function Header() {
     <main>
       <title>Biệt Đội Báo Con</title>
       <div className="bg-slate-100 w-full border-b-2 border-b-red-500 p-2 fixed">
-        <div className="text-2xl flex items-center max-w-7xl mx-auto">
+        <div className="text-xl flex items-center mx-20">
           <Link href="/" className="flex items-center text-green-500 font-bold">
             <Image src="/4.png" width="50" height="50" alt="4"></Image>
             <p className="hidden md:flex">Biệt Đội Báo Con</p>
           </Link>
+          <div className="mx-20 flex items-center text-2xl">
+            <input
+              type="text"
+              name="Search"
+              placeholder="Tìm kiếm"
+              className="rounded-md border-3 pl-10 pr-60"
+            />
+            <BiSearch className="absolute mx-1" />
+          </div>
+
+          <Link href=""></Link> <button type="button" className="mx-60 bg-green-400 p-2">
+            Sign in
+          </button>
+
           <div className="hidden md:flex-1 md:justify-end md:flex md:items-center">
-            <div className="flex items-center mx-6">
-              <input
-                type="text"
-                name="Search"
-                placeholder="Tìm kiếm"
-                className="rounded-md pl-6 pr-6 border-3"
-              />
-              <Link href="/" className="flex items-center flex-1 justify-end">
-                <BiSearch className="absolute mx-2" />
-              </Link>
-            </div>
             <Link href="">
               <BiUser />
             </Link>
             <Link href="" className="mx-6">
-              <BiCartAdd />
+              <BiMapAlt />
             </Link>
             <Link href="">
-              <BiMapAlt />
+              <BiCartAdd />
             </Link>
           </div>
         </div>
