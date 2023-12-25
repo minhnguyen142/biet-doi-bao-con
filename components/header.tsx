@@ -8,12 +8,12 @@ export default function Header() {
     <main>
       <title>Biệt Đội Báo Con</title>
       <div className="bg-slate-100 w-full border-b-2 border-b-red-500 p-2 fixed">
-        <div className="text-xl flex items-center mx-20">
+        <div className="md:text-xl text-md flex max-w-6xl items-center mx-auto">
           <Link href="/" className="flex items-center text-green-500 font-bold">
             <Image src="/4.png" width="50" height="50" alt="4"></Image>
             <p className="hidden md:flex">Biệt Đội Báo Con</p>
           </Link>
-          <div className="mx-20 flex items-center text-2xl">
+          {/* <div className="mx-20 flex items-center text-2xl">
             <input
               type="text"
               name="Search"
@@ -21,11 +21,11 @@ export default function Header() {
               className="rounded-md border-3 pl-10 pr-60"
             />
             <BiSearch className="absolute mx-1" />
-          </div>
+          </div> */}
 
-          <Link href=""></Link> <button type="button" className="mx-60 bg-green-400 p-2">
+          {/* <Link href=""></Link> <button type="button" className="mx-60 bg-green-400 p-2">
             Sign in
-          </button>
+          </button> */}
 
           <div className="hidden md:flex-1 md:justify-end md:flex md:items-center">
             <Link href="">
