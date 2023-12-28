@@ -8,7 +8,7 @@ export default function Header() {
     <main>
       <title>Biệt Đội Báo Con</title>
       <div className="bg-slate-100 w-full border-b-2 border-b-red-500 p-2 fixed">
-        <div className="text-xl flex items-center mx-auto max-w-6xl">
+        <div className="text-xl flex items-center mx-20">
           <Link href="/" className="flex items-center text-green-500 font-bold">
             <Image src="/4.png" width="50" height="50" alt="4"></Image>
             <p className="hidden sm:flex">Biệt Đội Báo Con</p>
