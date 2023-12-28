@@ -8,24 +8,11 @@ export default function Header() {
     <main>
       <title>Biệt Đội Báo Con</title>
       <div className="bg-slate-100 w-full border-b-2 border-b-red-500 p-2 fixed">
-        <div className="text-xl flex items-center mx-20">
+        <div className="text-xl flex items-center mx-auto max-w-6xl">
           <Link href="/" className="flex items-center text-green-500 font-bold">
             <Image src="/4.png" width="50" height="50" alt="4"></Image>
-            <p className="hidden md:flex">Biệt Đội Báo Con</p>
+            <p className="hidden sm:flex">Biệt Đội Báo Con</p>
           </Link>
-          <div className="mx-20 flex items-center text-2xl">
-            <input
-              type="text"
-              name="Search"
-              placeholder="Tìm kiếm"
-              className="rounded-md border-3 pl-10 pr-60"
-            />
-            <BiSearch className="absolute mx-1" />
-          </div>
-
-          <Link href=""></Link> <button type="button" className="mx-60 bg-green-400 p-2">
-            Sign in
-          </button>
 
           <div className="hidden md:flex-1 md:justify-end md:flex md:items-center">
             <Link href="">
@@ -36,6 +23,11 @@ export default function Header() {
             </Link>
             <Link href="">
               <BiCartAdd />
+            </Link>
+            <Link href="">
+              <button type="button" className="bg-green-500 p-2 ml-10 text-white ">
+                Sign in
+              </button>
             </Link>
           </div>
         </div>
